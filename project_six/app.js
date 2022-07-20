@@ -4,9 +4,10 @@ class Department {
         this.id = id;
         this.name = name;
         // private name: string;
-        //private id: string;
+        // private readonly id: string;
         this.employees = [];
         // this.name = n;
+        // this.id = id;
     }
     describe() {
         console.log("Department: " + this.id);
